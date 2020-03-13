@@ -1,0 +1,83 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	//variable for each outcome and user input
+	int rose = 0;
+	int sunflower = 0;
+	int tulip = 0;
+	int lily = 0;
+	char input;//user input
+
+	//question 1:
+	cout << "whats your favorite color? " << endl;
+	cout << "r- red, y- yellow, w- white, p- purple " << endl;
+	cin >> input;
+	if (input == 'r')
+		rose++;
+	else if (input == 'y')
+		sunflower++;
+	else if (input == 'w')
+		tulip++;
+	else if (input == 'p')
+		lily++;
+
+	//question 2:
+	int winter = 0;
+	int fall = 0;
+	int summer = 0;
+	int spring = 0;
+
+	cout << "What's your favorite season? " << endl;//add 5 more questions here! 
+	cout << "w-winter, f-fall, s-summer, p-spring" << endl;
+	cin >> input;
+	if (input == 'w')
+		winter++;
+	else if (input == 'f')
+		fall++;
+	else if (input == 's')
+		summer++;
+	else if (input == 'p')
+		spring++;
+
+	//queston 3 
+	int hydrated = 0;
+	int dehydrated = 0;
+
+	cout << "hydrated or dehydrated? " << endl;
+	cout << "d-dehydrated h-hydrated" << endl;
+	cin >> input;
+	if (input == 'h')
+		hydrated++;
+	else if (input == 'd')
+		dehydrated++;
+
+	//question 4
+	int fire = 0;
+	int water = 0;
+	int earth = 0;
+	int air = 0;
+	cout << "What Earth Element Are You? " << endl;
+	cout << "f-fire, e-earth, w-water, a-air" << endl;
+	cin >> input;
+	if (input == 'f')
+		fire++;
+	else if (input == 'e')
+		earth++;
+	else if (input == 'w')
+		water++;
+	else if (input == 'a')
+		air++;
+
+
+
+
+
+
+	if (rose > sunflower && tulip > lily && rose)//check which princess has the most points
+		cout << "You are blank !!" << endl;
+	else if (rose > sunflower);//add more code here
+
+
+
+}
